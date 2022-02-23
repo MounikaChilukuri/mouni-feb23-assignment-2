@@ -1,0 +1,7 @@
+#Reversing a list using reversed()
+
+def Reverse(list):
+    return [element for element in reversed(list)]
+    
+list = [10,2000,56,67,89,100]
+print(Reverse(list))
